@@ -6,7 +6,7 @@ using UnityEngine;
 public class SteeringWheelController : MonoBehaviour
 {
 
-	private float rotateY;
+	private float dirX;
 
 	[SerializeField] private float speed;
 	// Use this for initialization
@@ -17,16 +17,12 @@ public class SteeringWheelController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		rotateY = Input.GetAxisRaw("Horizontal");
-		if (rotateY==0)
-		{
-			transform.Rotate(0,0,0);
-		}
+		dirX = Input.acceleration.x;
 	}
 
 	private void FixedUpdate()
 	{
-		float dirY = rotateY * speed * Time.fixedDeltaTime;
-		transform.Rotate(0,dirY,0);
+		float rotateY = dirX * speed * Time.fixedDeltaTime;
+		transform.Rotate(0,rotateY,0);
 	}
 }

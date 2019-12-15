@@ -15,8 +15,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/SteeringWheelController.cs" />
         <option value="$PROJECT_DIR$/Assets/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SteeringWheelController.cs" />
       </list>
     </option>
   </component>
