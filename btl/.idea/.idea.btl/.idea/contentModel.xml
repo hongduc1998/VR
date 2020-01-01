@@ -6,6 +6,7 @@
     <e p="C:\Users\H.D.Coder\Desktop\VR\btl" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\CarController.cs" t="Include" />
+      <e p="Assets\MainMenuController.cs" t="Include" />
       <e p="Assets\Marcos Schultz" t="Include">
         <e p="MS Sposts Car" t="Include">
           <e p="License.txt" t="Include" />
